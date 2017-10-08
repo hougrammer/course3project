@@ -1,3 +1,5 @@
+The entire UCI HAR Dataset may not fit on to GitHub.  The full dataset can be found <a href=https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>here</a>.
+
 run_analysis.R does the following to the UCI HAR Dataset<br>
 <ol>
   <li>Merges the training and the test sets to create one data set.</li>
