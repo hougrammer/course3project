@@ -17,11 +17,6 @@ if (LOAD_DATA) {
 }
 
 # Appropriately labels the data set with descriptive variable names.
-# I don't like the convention of using only lower case as specified in the video,
-# as it makes it too hard to distinguish between words.
-# Instead PascalCase is used.
-# Hyphens and empty parenthesese are removed, as they do not offer any information.
-# Parentheses with arguments are left unmodified for clarity.
 features = sapply(strsplit(rawfeatures, '-'), function(x){
     for (i in 1:length(x)) 
         substr(x[i], 1, 1) = toupper(substr(x[i], 1, 1))
